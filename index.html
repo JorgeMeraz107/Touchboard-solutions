@@ -772,7 +772,7 @@
         }
 
         .foda-quad:nth-child(4) {
-            background: var(--cyan);
+            background: #E65100;
         }
 
         .foda-letter {
@@ -1154,7 +1154,14 @@
             }
 
             .hero-right {
-                min-height: 480px;
+                height: 420px;
+                min-height: 420px;
+                max-height: 420px;
+            }
+
+            .hero-right-img {
+                object-fit: cover;
+                object-position: center 20%;
             }
 
             .hero-stat-strip {
@@ -1239,12 +1246,24 @@
                 display: flex;
             }
 
+            .hero {
+                height: auto;
+                max-height: none;
+            }
+
             .hero-left {
-                padding: 90px 24px 48px;
+                padding: 90px 24px 40px;
             }
 
             .hero-right {
-                min-height: 300px;
+                height: 260px;
+                min-height: 260px;
+                max-height: 260px;
+            }
+
+            .hero-right-img {
+                object-fit: cover;
+                object-position: center 20%;
             }
 
             .hero-stat-strip {
@@ -1400,7 +1419,7 @@
                     Artificial, creando un entorno interactivo que potencie la motricidad fina y la capacidad de
                     abstracción visual de los estudiantes."
                 </p>
-                <div class="about-card-attr">Daniel Garcia</div>
+                <div class="about-card-attr">Touchboard — Informe de Proyecto</div>
             </div>
         </div>
     </section>
@@ -1693,6 +1712,7 @@
         </div>
         <div class="footer-bottom">
             <span class="footer-copy">© 2026 Touchboard Interactive Solutions. Todos los derechos reservados.</span>
+            <span class="footer-inst">Instituto Internacional Tecnológico — INTEC</span>
         </div>
     </footer>
 
